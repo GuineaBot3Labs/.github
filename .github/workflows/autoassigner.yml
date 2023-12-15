@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3  # Updated to the latest version
       
       - name: Run custom assignment script
-        run: python ./autoassign.py
+        run: python autoassign.py
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PAT }}
           ORG_NAME: 'GuineaBot3Labs'  # Ensure this is correct
