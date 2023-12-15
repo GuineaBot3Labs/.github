@@ -3,17 +3,25 @@ import random
 import os
 
 def get_org_members(org_name, token):
-    url = f"https://api.github.com/orgs/{org_name}/members"
-    headers = {
-        'Authorization': f'token {token}',
-        'Accept': 'application/vnd.github.v3+json'
-    }
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        return [member['login'] for member in response.json()]
-    else:
-        print(f"Failed to fetch organization members: {response.status_code}, {response.text}")
-        return []
+    members = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/orgs/{org_name}/members?per_page=100&page={page}"
+        headers = {
+            'Authorization': f'token {token}',
+            'Accept': 'application/vnd.github.v3+json'
+        }
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            batch = response.json()
+            if not batch:
+                break
+            members.extend([member['login'] for member in batch])
+            page += 1
+        else:
+            print(f"Failed to fetch organization members: {response.status_code}, {response.text}")
+            break
+    return members
 
 def assign_issue(issue_number, assignee, repo_name, token):
     url = f"https://api.github.com/repos/{repo_name}/issues/{issue_number}/assignees"
