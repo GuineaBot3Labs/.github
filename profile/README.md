@@ -7,14 +7,13 @@ Describe your vision for GuineaBot3Labs. What are the long-term goals and impact
 Current Projects
 
     GuineaBOT: An advanced Chess AI designed to learn and adapt. We're constantly seeking ways to improve its learning algorithms and performance.
-    List other ongoing projects or potential ideas.
 
 # How to Get Involved
 
 We're always looking for enthusiastic, skilled individuals to join our team! Whether you're a seasoned hacker, a programming guru, or someone who's just starting out and eager to learn, there's a place for you here at GuineaBot3Labs.
 Steps to Join:
 
-Contact Us: Open a [issue][issue-link] within our organization introducing yourself and your interests with the "contact" tag.
+Contact Us: Open a [issue][issue-link] within our organization introducing yourself and your interests with the "contact" label.
 
 Meet the Team: We will arrange a discussion where we can talk and discuss about a ton of topics.
 
@@ -43,7 +42,7 @@ Our Code of Conduct:
 
 Issue link for [joining.][issue-link]
 
-Remember, use the "contact" tag.
+Remember, use the "contact" label.
 
 Let's Innovate Together!
 
