@@ -2,11 +2,11 @@ import requests
 import random
 import os
 
-def get_org_members(org_name, token):
-    members = []
+def get_org_users(org_name, token, role):
+    users = []
     page = 1
     while True:
-        url = f"https://api.github.com/orgs/{org_name}/members?per_page=100&page={page}"
+        url = f"https://api.github.com/orgs/{org_name}/members?role={role}&per_page=100&page={page}"
         headers = {
             'Authorization': f'token {token}',
             'Accept': 'application/vnd.github.v3+json'
@@ -16,12 +16,12 @@ def get_org_members(org_name, token):
             batch = response.json()
             if not batch:
                 break
-            members.extend([member['login'] for member in batch])
+            users.extend([user['login'] for user in batch])
             page += 1
         else:
-            print(f"Failed to fetch organization members: {response.status_code}, {response.text}")
+            print(f"Failed to fetch organization {role}s: {response.status_code}, {response.text}")
             break
-    return members
+    return users
 
 def assign_issue(issue_number, assignee, repo_name, token):
     url = f"https://api.github.com/repos/{repo_name}/issues/{issue_number}/assignees"
@@ -40,12 +40,15 @@ def main():
     repo_name = os.getenv('REPO_NAME')
     issue_number = os.getenv('ISSUE_NUMBER')
 
-    members = get_org_members(org_name, token)
-    if not members:
-        print("No members found in the organization.")
+    members = get_org_users(org_name, token, 'member')
+    owners = get_org_users(org_name, token, 'admin')
+    all_users = list(set(members + owners))
+
+    if not all_users:
+        print("No users found in the organization.")
         return
 
-    assignee = random.choice(members)
+    assignee = random.choice(all_users)
     assign_issue(issue_number, assignee, repo_name, token)
     print(f"Issue {issue_number} has been assigned to {assignee}")
 
