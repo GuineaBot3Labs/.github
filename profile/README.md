@@ -1,10 +1,12 @@
 ## Hi there 👋 and Welcome to GuineaBot3Labs!
 
 GuineaBot3Labs is a collaborative, innovative space where passionate individuals come together to work on cutting-edge projects in programming, ethical hacking, and AI development. Our primary goal is to make the world a better place through technology, fostering an environment of learning and growth.
-Our Vision
 
-Describe your vision for GuineaBot3Labs. What are the long-term goals and impact you hope to achieve?
-Current Projects
+# Our Vision
+
+Our vision is to make projects that will have a lasting positive impact on the world, it is also to include STEM into this serious process, so that individuals can learn while they create.
+
+Current Projects:
 
     GuineaBOT: An advanced Chess AI designed to learn and adapt. We're constantly seeking ways to improve its learning algorithms and performance.
 
