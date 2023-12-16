@@ -1,8 +1,10 @@
 name: Schedule Workflow importer Update
 
 on:
-  schedule:
-    - cron: '0 */24 * * *'  # At minute 0 past every 12th hour.
+  issues:
+    type: open
+  # schedule:
+  #  - cron: '0 */24 * * *'  # At minute 0 past every 12th hour.
 
 jobs:
   update-workflows:
