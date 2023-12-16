@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run Script
-        run: python .github/workflow/workflow-importer.py
+        run: python .github/workflow/workflowimporter.py
         env:
           GITHUB_TOKEN: ${{ secrets.AUTO_ASSISTER_PAT }}
           GITHUB_ORG: 'GuineaBot3Labs'
