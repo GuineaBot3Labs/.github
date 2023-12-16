@@ -1,8 +1,8 @@
-name: Schedule Workflows Update For All Repositories In Organization.
+name: Schedule Workflow importer Update
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'  # At every 10th minute.
+ schedule:
+   - cron: '*/1 * * *'  # At every minute.
 
 jobs:
   update-workflows:
