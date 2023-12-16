@@ -2,7 +2,7 @@ name: Schedule Workflow importer Update
 
 on:
  schedule:
-   - cron: '*/1 * * *'  # At every minute.
+   - cron: '*/10 * * * *'  # At every 10 minutes.
 
 jobs:
   update-workflows:
