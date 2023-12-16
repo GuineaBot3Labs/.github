@@ -62,6 +62,7 @@ def github_directory_exists(repo, token):
     headers = {"Authorization": f"token {token}"}
     response = requests.get(url, headers=headers)
     return response.status_code == 200
+
 def main():
     token = os.getenv("GITHUB_TOKEN")
     org_name = "GuineaBot3Labs"  # Replace with your organization name
@@ -72,10 +73,11 @@ def main():
 
     for repo in target_repos:
         if repo != source_repo and not github_directory_exists(repo, token):  
-            # Only proceed if .github doesn't exist in the target repository
             for file_info in workflow_files:
-                content = get_file_content(source_repo, file_info['path'], token)
-                update_workflow_in_repo(repo, file_info['path'], content, token)
-                print(f"Updated {file_info['path']} in {repo}")                
+                if file_info['name'] not in ['workflowimporter.py', 'updateworkflows.yml']:
+                    content = get_file_content(source_repo, file_info['path'], token)
+                    update_workflow_in_repo(repo, file_info['path'], content, token)
+                    print(f"Updated {file_info['path']} in {repo}")
+                    
 if __name__ == "__main__":
     main()
