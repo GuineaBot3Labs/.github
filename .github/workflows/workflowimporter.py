@@ -57,6 +57,12 @@ def get_existing_file_sha(repo, path, token):
         return response.json()['sha']
     return None
 
+def github_directory_exists(repo, token):
+    url = f"https://api.github.com/repos/{repo}/contents/.github"
+    headers = {"Authorization": f"token {token}"}
+    response = requests.get(url, headers=headers)
+    return response.status_code == 200
+
 def main():
     token = os.getenv("GITHUB_TOKEN")
     org_name = "GuineaBot3Labs"  # Replace with your organization name
@@ -68,9 +74,10 @@ def main():
     for file_info in workflow_files:
         content = get_file_content(source_repo, file_info['path'], token)
         for repo in target_repos:
-            if repo != source_repo:  # Avoid updating the source repository
+            if repo != source_repo and not github_directory_exists(repo, token):  
+                # Avoid updating the source repository and only update if .github doesn't exist
                 update_workflow_in_repo(repo, file_info['path'], content, token)
                 print(f"Updated {file_info['path']} in {repo}")
-
+                
 if __name__ == "__main__":
     main()
