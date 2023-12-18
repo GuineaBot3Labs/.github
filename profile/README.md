@@ -4,7 +4,7 @@ GuineaBot3Labs is a collaborative, innovative space where passionate individuals
 
 # Our Vision
 
-Our vision is to make projects that will have a lasting positive impact on the world, it is also to include STEM into this serious process, so that individuals can learn while they create.
+Our vision is to make projects that will have a lasting positive impact on the world, while including STEM into this serious process, so that individuals can learn while they create.
 
 Current Projects:
 
