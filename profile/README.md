@@ -34,6 +34,7 @@ Here we have a few rules:
 GuineaBot3Labs is committed to creating a welcoming, inclusive environment. Respect, collaboration, and open-mindedness are key. We value diverse perspectives and believe they make our projects stronger.
 Our Code of Conduct:
 
+    ANY KIND OF HACKING IS STRICTLY PROHIBITED UNLESS STATED TO BE ALLOWED, OR EDUCATIONAL STRICTLY, IF USED BY BLACK HATS, REPOS CAN AND WILL BE TAKEN DOWN, ANY VIOLATION OF THIS RULE CAN LEAD TO KICK.
     Be respectful and supportive of fellow members.
     Embrace diversity and inclusivity in all interactions.
     Contribute positively and constructively to projects.
