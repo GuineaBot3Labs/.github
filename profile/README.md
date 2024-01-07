@@ -15,7 +15,7 @@ Current Projects:
 We're always looking for enthusiastic, skilled individuals to join our team! Whether you're a seasoned hacker, a programming guru, or someone who's just starting out and eager to learn, there's a place for you here at GuineaBot3Labs.
 Steps to Join:
 
-Contact Us: Open a [issue][issue-link] within our organization introducing yourself and your interests with the "contact" label, or you can join or discord server (here.)[https://discord.gg/sJc6WTwD]
+Contact Us: Open a [issue][issue-link] within our organization introducing yourself and your interests with the "contact" label, or you can join or discord server [here.](https://discord.gg/sJc6WTwD)
 
 Meet the Team: We will arrange a discussion where we can talk and discuss about a ton of topics, this should be done within the issue not discord, after we are done, or you just want to join, we will invite you to the GuineaBot3Labs (technically we still haven't invited you yet).
 
