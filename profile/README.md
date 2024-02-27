@@ -9,7 +9,7 @@ Our vision is to make projects that will have a lasting positive impact on the w
 Current Projects:
 
     GuineaBOT: An advanced Chess AI designed to learn and adapt. We're constantly seeking ways to improve its learning algorithms and performance.
-    StarFox-AI: An advanced Convultional Neural Network tasked with playing StarFox, in hopes of learning more about computer vision, and spatial awareness in AI. 
+    StarFox-AI: An advanced Convolutional Neural Network tasked with playing StarFox, in hopes of learning more about computer vision, and spatial awareness in AI. 
 
 # How to Get Involved
 
