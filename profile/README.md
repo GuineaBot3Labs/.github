@@ -30,12 +30,12 @@ Here we have a few rules:
 
 2: We have a 3 strike warning system, 
 
-1 strike results in a warning, 2 strikes result in taking away privilege and a 3rd strike results in a kick.
+1 strike results in a warning, 2 strikes result in taking away privilege and a 3rd strike results in a block.
 
 GuineaBot3Labs is committed to creating a welcoming, inclusive environment. Respect, collaboration, and open-mindedness are key. We value diverse perspectives and believe they make our projects stronger.
 Our Code of Conduct:
 
-    ANY KIND OF HACKING IS STRICTLY PROHIBITED UNLESS STATED TO BE ALLOWED, OR EDUCATIONAL STRICTLY, YOU WILL NOT HACK ANY ACCOUNTS OR ANYTHING AND IT IS YOUR RESPONSIBILITY NOT OURS, IF USED BY BLACK HATS (or worse YOU see 2 for possible action), REPOS CAN AND WILL BE TAKEN DOWN, ANY VIOLATION OF THIS RULE CAN LEAD TO KICK OR REPORTING OF GITHUB ACCOUNT.
+    ANY KIND OF HACKING IS STRICTLY PROHIBITED UNLESS STATED TO BE ALLOWED, OR EDUCATIONAL STRICTLY AND IS YOUR RESPONSIBILITY NOT OURS, IF USED BY BLACK HATS (or worse YOU see 2 for possible action), REPOS CAN AND WILL BE TAKEN DOWN, ANY VIOLATION OF THIS RULE CAN LEAD TO BLOCK OR REPORTING OF GITHUB ACCOUNT.
     Be respectful and supportive of fellow members.
     Embrace diversity and inclusivity in all interactions.
     Contribute positively and constructively to projects.
@@ -48,7 +48,6 @@ Issue link for [joining.][issue-link]
 
 Remember, use the "contact" label.
 
-Let's Innovate Together!
 
 Join us at GuineaBot3Labs, where your ideas, skills, and passion can help shape the future of technology.
 
