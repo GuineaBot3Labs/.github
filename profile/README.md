@@ -40,7 +40,7 @@ We're always looking for enthusiastic, skilled individuals to join our team! Whe
 
 For joining, use this [issue link][issue-link]. Remember, use the labels for the corresponding teams you want to join.
 
-Join us at GuineaBot3Labs, where your ideas, skills, and passion can help shape the future of technology.
+Join us at GuineaBot3Labs, where your ideas, skills, and passion can help shape the future of technology. Please note nothing in here is paid, and mostly for development purely.
 
 [issue-link]: https://github.com/GuineaBot3Labs/join/issues/new
 [discord-link]: https://discord.gg/z5raVHz35N
