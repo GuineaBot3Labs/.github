@@ -8,8 +8,10 @@ Our vision is to make projects that will have a lasting positive impact on the w
 
 Current Projects:
 
-    GuineaBOT: An advanced Chess AI designed to learn and adapt. We're constantly seeking ways to improve its learning algorithms and performance.
-    StarFox-AI: An advanced Convolutional Neural Network tasked with playing StarFox, in hopes of learning more about computer vision, and spatial awareness in AI. 
+- **GuineaBOT**: An advanced Chess AI designed to learn and adapt. We're constantly seeking ways to improve its learning algorithms and performance.
+- **StarFox-AI**: An advanced Convolutional Neural Network tasked with playing StarFox, in hopes of learning more about computer vision, and spatial awareness in AI. (post-poned)
+- **higan-env**: A modification of the emulator [higan](https://github.com/higan-emu/higan) that includes an API for interfacing programs with emulators.
+
 
 # How to Get Involved
 
@@ -22,31 +24,25 @@ Meet the Team: We will arrange a discussion where we can talk and discuss about 
 
 Find Your Fit: Explore where your skills and interests align with our projects.
 
-# Contribution Guidelines
+# Community Guidelines
 
-Here we have a few rules:
+- No offensive or defacing comments in both code and discussions.
+- No malicious code in non-pentesting repositories.
+- All commits should be sanitized of any type of bad language,
+- No malicious software, unless a project specifically for learning about cyber security, which should be approved before made, otherwise, it will be taken down.
 
-1: No offensive or defacing comments in both code and discussions.
+## Our Code of Conduct:
 
-2: We have a 3 strike warning system, 
-
-1 strike results in a warning, 2 strikes result in taking away privilege and a 3rd strike results in a block.
-
-GuineaBot3Labs is committed to creating a welcoming, inclusive environment. Respect, collaboration, and open-mindedness are key. We value diverse perspectives and believe they make our projects stronger.
-Our Code of Conduct:
-
-    ANY KIND OF HACKING IS STRICTLY PROHIBITED UNLESS STATED TO BE ALLOWED, OR EDUCATIONAL STRICTLY AND IS YOUR RESPONSIBILITY NOT OURS, IF USED BY BLACK HATS (or worse YOU see 2 for possible action), REPOS CAN AND WILL BE TAKEN DOWN, ANY VIOLATION OF THIS RULE CAN LEAD TO BLOCK OR REPORTING OF GITHUB ACCOUNT.
-    Be respectful and supportive of fellow members.
-    Embrace diversity and inclusivity in all interactions.
-    Contribute positively and constructively to projects.
-    Make positive projects that can benefit the world.
-    Have fun.
+- Be respectful and supportive of fellow members.
+- Contribute positively and constructively to projects.
+- Make positive projects that can benefit the world.
+- Have fun.
 
 ## Contact Information
 
 Issue link for [joining.][issue-link]
 
-Remember, use the "contact" label.
+Remember, use the labels for the corrosponding teams you want to join.
 
 
 Join us at GuineaBot3Labs, where your ideas, skills, and passion can help shape the future of technology.
