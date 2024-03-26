@@ -1,10 +1,10 @@
 # Hi there 👋 and Welcome to GuineaBot3Labs!
 
-GuineaBot3Labs is a collaborative, innovative space where passionate individuals come together to work on cutting-edge projects in programming, ethical hacking, and AI development. Our primary goal is to make the world a better place through technology, fostering an environment of learning and growth.
+GuineaBot3Labs is a collaborative, innovative space where passionate individuals come together on their free time to work on cutting-edge projects in programming, ethical hacking, and AI development. Our primary goal is to make the world a better place through technology, fostering an environment of learning and growth.
 
 ## Our Vision
 
-Our vision is to make projects that will have a lasting positive impact on the world, while including STEM into this serious process, so that individuals can learn while they create.
+Our vision is to make projects that will have a lasting positive impact on the world, while including some sort of experience into this process, so that individuals can learn while they create.
 
 ### Current Projects:
 
@@ -40,7 +40,7 @@ We're always looking for enthusiastic, skilled individuals to join our team! Whe
 
 For joining, use this [issue link][issue-link]. Remember, use the labels for the corresponding teams you want to join.
 
-Join us at GuineaBot3Labs, where your ideas, skills, and passion can help shape the future of technology. Please note nothing in here is paid, and mostly for development purely.
+Join us at GuineaBot3Labs, where your ideas, skills, and passion can help shape the future of technology. Please note nothing in here is paid, mostly for fun/education and non-profitable software.
 
 [issue-link]: https://github.com/GuineaBot3Labs/join/issues/new
 [discord-link]: https://discord.gg/z5raVHz35N
