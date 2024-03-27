@@ -1,47 +1,35 @@
-# Hi there 👋 and Welcome to GuineaBot3Labs!
+# Welcome to GuineaBot3Labs
 
-GuineaBot3Labs is a collaborative, innovative space where passionate individuals come together on their free time to work on cutting-edge projects in programming, ethical hacking, and AI development. Our primary goal is to make the world a better place through technology, fostering an environment of learning and growth.
+GuineaBot3Labs is a volunteer-driven collective focused on advancing programming, ethical hacking, and artificial intelligence. Our community leverages our members' diverse expertise and passion to develop technology with a positive societal impact, all on a non-compensatory basis.
 
-## Our Vision
+## Our Mission
 
-Our vision is to make projects that will have a lasting positive impact on the world, while including some sort of experience into this process, so that individuals can learn while they create.
+We are committed to creating a supportive environment where individuals can collaborate on innovative projects. Our aim is to blend learning with development, empowering our members to grow their skills while contributing to meaningful technological advancements.
 
-### Current Projects:
+### Our Projects
 
-- **GuineaBOT**: An advanced Chess AI designed to learn and adapt. We're constantly seeking ways to improve its learning algorithms and performance.
-- **StarFox-AI**: An advanced Convolutional Neural Network tasked with playing StarFox, in hopes of learning more about computer vision and spatial awareness in AI. (postponed)
-- **higan-env**: A modification of the emulator [higan][higan-link] that includes an API for interfacing programs with emulators.
+- **GuineaBot3**: An advanced Chess AI designed for continuous learning and adaptation, demonstrating our dedication to pushing the boundaries of AI.
+- **StarFox-AI** (On Hold): A project focused on leveraging gaming to enhance computer vision and AI spatial awareness, currently paused to prioritize the development of higan-env.
+- **higan-env**: A modification of the higan emulator, incorporating an API for enriched program-emulator interactions.
 
 ## How to Get Involved
 
-We're always looking for enthusiastic, skilled individuals to join our team! Whether you're a seasoned hacker, a programming guru, or someone who's just starting out and eager to learn, there's a place for you here at GuineaBot3Labs.
+Joining GuineaBot3Labs means becoming part of a vibrant community dedicated to technological innovation, without financial compensation. Your contribution is driven by your passion and free time.
 
-### Steps to Join:
+### Steps to Join
 
-1. **Contact Us**: Open an [issue][issue-link] within our organization introducing yourself and your interests with the "contact" label, or you can join our Discord server [here][discord-link].
-2. **Meet the Team**: We will arrange a discussion where we can talk and discuss about a ton of topics. This should be done within the issue, not Discord. After we are done, or you just want to join, we will invite you to GuineaBot3Labs (technically, we still haven't invited you yet).
-3. **Find Your Fit**: Explore where your skills and interests align with our projects.
+1. **Introduction**: Start by [introducing yourself](https://github.com/GuineaBot3Labs/join/issues/new) via our GitHub or connect on our [Discord server](https://discord.gg/z5raVHz35N).
+2. **Engagement**: Participate in discussions to ensure our goals align. If so, we'll welcome you to the team.
+3. **Integration**: Discover how your expertise can contribute to our projects, and dive in.
 
-## Community Guidelines
+## Expectations and Guidelines
 
-- No offensive or defacing comments in both code and discussions.
-- No malicious code in non-pentesting repositories.
-- All commits should be sanitized of any type of bad language.
-- No malicious software, unless a project is specifically for learning about cyber security, which should be approved before being made; otherwise, it will be taken down.
+We maintain a professional, respectful, and positive community. Contributions should be constructive, and all interactions must uphold our standards of courtesy and mutual respect.
 
-### Our Code of Conduct:
+## Resource Limitations
 
-- Be respectful and supportive of fellow members.
-- Contribute positively and constructively to projects.
-- Make positive projects that can benefit the world.
-- Have fun.
+As a volunteer-based group, access to certain paid tools, like GitHub Copilot, is beyond our current scope. However, we believe our collective creativity and resourcefulness are more than capable of overcoming these limitations.
 
-## Contact Information
+## Ready to Contribute?
 
-For joining, use this [issue link][issue-link]. Remember, use the labels for the corresponding teams you want to join.
-
-Join us at GuineaBot3Labs, where your ideas, skills, and passion can help shape the future of technology. Please note nothing in here is paid, mostly for fun/education and non-profitable software.
-
-[issue-link]: https://github.com/GuineaBot3Labs/join/issues/new
-[discord-link]: https://discord.gg/z5raVHz35N
-[higan-link]: https://github.com/higan-emu/higan
+If you're inspired by the prospect of contributing to cutting-edge technology projects alongside like-minded individuals, we invite you to join us. Together, we can make a difference, one project at a time.
