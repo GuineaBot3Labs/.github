@@ -14,7 +14,7 @@ We are committed to creating a supportive environment where individuals can coll
 
 ## How to Get Involved
 
-Joining GuineaBot3Labs means becoming part of a vibrant community dedicated to technological innovation, without financial compensation. Your contribution is driven by your passion and free time.
+Joining GuineaBot3Labs means becoming part of a vibrant community dedicated to technological innovation, please note, that there is no financial compensation. Your contribution is driven by your passion and free time.
 
 ### Steps to Join
 
@@ -28,7 +28,7 @@ We maintain a professional, respectful, and positive community. Contributions sh
 
 ## Resource Limitations
 
-As a volunteer-based group, access to certain paid tools, like GitHub Copilot, is beyond our current scope. However, we believe our collective creativity and resourcefulness are more than capable of overcoming these limitations.
+As a volunteer-based group, access to paid tools, like GitHub Copilot, is beyond our current scope. However, we believe our collective creativity and resourcefulness are more than capable of overcoming these limitations.
 
 ## Ready to Contribute?
 
