@@ -1,6 +1,6 @@
 # Welcome to GuineaBot3Labs
 
-GuineaBot3Labs is a volunteer-driven collective focused on advancing programming, ethical hacking, and artificial intelligence. Our community leverages our members' diverse expertise and passion to develop technology with a positive impact.
+GuineaBot3Labs is a volunteer-driven collective focused on advancing programming, ethical hacking, and artificial intelligence. Our community leverages our members' diverse expertise and passion to develop technology with a positive societal impact.
 
 ## Our Mission
 
