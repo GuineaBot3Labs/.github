@@ -2,25 +2,12 @@ import requests
 import random
 import os
 
-def get_org_users(org_name, token, role):
+def get_all_users():
     users = []
-    page = 1
-    while True:
-        url = f"https://api.github.com/orgs/{org_name}/members?role={role}&per_page=100&page={page}"
-        headers = {
-            'Authorization': f'token {token}',
-            'Accept': 'application/vnd.github.v3+json'
-        }
-        response = requests.get(url, headers=headers)
-        if response.status_code == 200:
-            batch = response.json()
-            if not batch:
-                break
-            users.extend([user['login'] for user in batch])
-            page += 1
-        else:
-            print(f"Failed to fetch organization {role}s: {response.status_code}, {response.text}")
-            break
+    with open("users.txt", "r") as file:
+        for line in file:
+            username = line.strip().split(',')[0]  # Assume username is the first item on each line
+            users.append(username)
     return users
 
 def assign_issue(issue_number, assignee, repo_name, token):
@@ -36,16 +23,13 @@ def assign_issue(issue_number, assignee, repo_name, token):
 
 def main():
     token = os.getenv('GITHUB_TOKEN')
-    org_name = os.getenv('ORG_NAME')
     repo_name = os.getenv('REPO_NAME')
     issue_number = os.getenv('ISSUE_NUMBER')
 
-    members = get_org_users(org_name, token, 'member')
-    owners = get_org_users(org_name, token, 'admin')
-    all_users = list(set(members + owners))
+    all_users = get_all_users()
 
     if not all_users:
-        print("No users found in the organization.")
+        print("No users found.")
         return
 
     assignee = random.choice(all_users)
