@@ -20,11 +20,11 @@ Joining GuineaBot3Labs means becoming part of a vibrant community dedicated to t
 
 1. **Introduction**: Start by [introducing yourself](https://github.com/GuineaBot3Labs/join/issues/new) via our GitHub or connect on our [Discord server](https://discord.gg/z5raVHz35N).
 2. **Engagement**: Participate in discussions, see if you want to join or not. If so, we'll invite you into the github organization. (technically, there's no supported way for us to just have a "join" button.)
-3. **Integration**: Discover how your expertise can contribute to our projects, and dive into your fields of intrest.
+3. **Integration**: Discover how you can contribute to our projects, and dive into your fields of intrest.
 
 ## Expectations and Guidelines
 
-We maintain a professional, respectful, and positive community. Contributions should be constructive, and all interactions must uphold our standards of courtesy and mutual respect.
+We maintain a professional, respectful, and positive community. Contributions should be constructive, and all interactions must uphold our standards of courtesy and mutual respect. In otherwords, as long as you follow Github's terms, you'll be just fine.
 
 ## Resource Limitations
 
