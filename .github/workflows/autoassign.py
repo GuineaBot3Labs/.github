@@ -6,7 +6,7 @@ def get_all_users():
     users = []
     with open("users.txt", "r") as file:
         for line in file:
-            username = line.strip().split(',')[0]  # Assume username is the first item on each line
+            username = line.strip()  # Directly get the username from each line
             users.append(username)
     return users
 
