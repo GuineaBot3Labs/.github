@@ -10,9 +10,9 @@ We are committed to creating a supportive environment where individuals can coll
 
 ### Our Projects
 
-- **GuineaBot3**: An advanced Chess AI designed for continuous learning and adaptation, demonstrating our dedication to pushing the boundaries of AI.
-- **StarFox-AI** (On Hold): A advanced Convolutional Neural Network tasked with playing StarFox on higan-env to learn about computer vision and how neural networks percieve their environment. Currently paused due to the development of higan-env, which will power StarFox-AI in the future.
-- **higan-env**: A modification of the higan emulator, bridges the gap between AI, training environments, and classic games; so researchers and learners can train models to do many tasks. higan-env is very a similar project to OpenAI's [Gym-Retro.](https://github.com/openai/retro)
+- **GuineaBot3 (Status: Complete)**: An advanced Chess AI designed for continuous learning and adaptation, demonstrating our dedication to pushing the boundaries of AI.
+- **StarFox-AI (Status: Dormant)**: A advanced Convolutional Neural Network tasked with playing StarFox on higan to learn about computer vision and how neural networks percieve their environment. Currently paused due to the development of higan-env, which will power StarFox-AI in the future.
+- **higan-env (Status: In development)**: A modification of the higan emulator, bridges the gap between AI, training environments, and classic games; so researchers and learners can train models to do many tasks. higan-env is very a similar project to OpenAI's [Gym-Retro](https://github.com/openai/retro) in the way it interfaces with higan.
 
 ## How to Get Involved
 
