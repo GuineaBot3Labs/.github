@@ -9,8 +9,8 @@ We are committed to creating a supportive environment where individuals can coll
 ### Our Projects
 
 - **GuineaBot3**: An advanced Chess AI designed for continuous learning and adaptation, demonstrating our dedication to pushing the boundaries of AI.
-- **StarFox-AI** (On Hold): A project focused on leveraging gaming to enhance computer vision and AI spatial awareness, currently paused to prioritize the development of higan-env.
-- **higan-env**: A modification of the higan emulator, incorporating an API for enriched program-emulator interactions.
+- **StarFox-AI** (On Hold): A project focused on leveraging gaming to enhance computer vision and AI spatial awareness, currently paused due to the development of higan-env, which will power StarFox-AI in the future.
+- **higan-env**: A modification of the higan emulator, to bridge the gap between AI, training environments, and classic games.
 
 ## How to Get Involved
 
