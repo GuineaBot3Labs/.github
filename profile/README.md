@@ -2,7 +2,7 @@
 
 GuineaBot3Labs is a volunteer-driven collective focused on advancing programming, ethical hacking, and artificial intelligence. Our community leverages our members' diverse expertise and passion to develop technology with a positive societal impact.
 
-Please note the README is going through signifigant changes at this moment.
+Please note the README is going through many changes, don't be suprised if the README changes drastically in the future.
 
 ## Our Mission
 
