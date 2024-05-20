@@ -10,8 +10,9 @@ We are committed to creating a supportive environment where individuals can coll
 
 ### Our Projects
 
-- **GuineaBot3 (Status: Complete)**: An advanced Chess AI designed for continuous learning and adaptation, yep, that's about it...
+- **GuineaBot3 (Status: Dormant)**: An advanced Chess AI designed for continuous learning and adaptation, yep, that's about it...
 - **StarFox-AI (Status: Dormant)**: A advanced Convolutional Neural Network tasked with playing StarFox to learn about computer vision and how neural networks percieve their environment. Currently paused due to the development of ares-env, which will power StarFox-AI in the future.
+- **ascii-tetris-AI (Status: In development)**: A Deep RL agent tasked to play tetris, this would be complete, if it wasn't for speculative gaming.
 - **ares-env (Status: In development)**: A modification of the ares emulator, bridges the gap between AI, training environments, and classic games; so researchers and learners can train models to do many complex tasks simultaneously. This will possibly help AI learn to interact with everyday objects and/or programs.
 
 ## How to Get Involved
