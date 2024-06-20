@@ -17,7 +17,7 @@ We are committed to creating a supportive environment where individuals can coll
 
 ## How to Get Involved
 
-Joining GuineaBot3Labs means becoming part of a vibrant community dedicated to technological innovation, please note, that there is no financial compensation. Your contribution is optional, and will be included in the CREDITS.txt of the repository contributed to.
+Joining GuineaBot3Labs means becoming part of a small community dedicated to learning, please note, that there is no financial compensation. Your contribution is optional, and will be included in the CREDITS.txt of the repository contributed to.
 
 ### Steps to Join
 
